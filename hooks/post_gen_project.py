@@ -56,7 +56,7 @@ def remove_pycharm_files():
 def remove_docker_files():
     shutil.rmtree("compose")
 
-    file_names = ["local.yml", "production.yml", ".dockerignore"]
+    file_names = ["local.yml", "production.yml", ".dockerignore","Makefile"]
     for file_name in file_names:
         os.remove(file_name)
 
@@ -354,7 +354,7 @@ def main():
 
     if "{{ cookiecutter.setup_drf }}".lower() == "n":
         remove_drf_starter_files()
-        
+
     if "{{ cookiecutter.use_stimulusJS }}".lower() == "n":
         remove_stimulus_js_files()
 
