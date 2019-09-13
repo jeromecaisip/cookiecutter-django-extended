@@ -1,5 +1,5 @@
 ## Cookiecutter Django Extended
 
 Additional Integrations:
-* (StimulusJS) with webpack [stimulusjs.org]
-* Django-rest-framework bootsraping
+* [StimulusJS](stimulusjs.org) with webpack
+* Django-rest-framework bootstrapping
