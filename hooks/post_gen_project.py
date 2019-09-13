@@ -278,6 +278,12 @@ def remove_celery_compose_dirs():
 def remove_node_dockerfile():
     shutil.rmtree(os.path.join("compose", "local", "node"))
 
+def remove_drf_starter_files():
+    os.remove(os.path.join("config", "api_router.py"))
+    shutil.rmtree(os.path.join("{{cookiecutter.project_slug}}", "users", "api"))
+
+
+
 
 def main():
     debug = "{{ cookiecutter.debug }}".lower() == "y"
@@ -341,6 +347,9 @@ def main():
 
     if "{{ cookiecutter.use_travisci }}".lower() == "n":
         remove_dottravisyml_file()
+
+    if "{{ cookiecutter.setup_drf }}".lower() == "n":
+        remove_drf_starter_files()
 
     print(SUCCESS + "Project initialized, keep up the good work!" + TERMINATOR)
 
