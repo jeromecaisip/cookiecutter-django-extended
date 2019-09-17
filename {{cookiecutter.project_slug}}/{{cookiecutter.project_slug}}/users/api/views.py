@@ -8,3 +8,4 @@ User = get_user_model()
 class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
     queryset = User.objects.all()
+    lookup_field = 'username'
