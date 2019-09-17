@@ -1,3 +1,5 @@
+from rest_framework.authtoken.views import obtain_auth_token
+
 from django.conf import settings
 from django.urls import include, path
 from django.conf.urls.static import static
@@ -15,8 +17,8 @@ urlpatterns = [
     # User management
     path("users/", include("{{ cookiecutter.project_slug }}.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
-    # API base url
-    path("api/", include('config.api_router')),
+    # DRF authentication token
+    path("auth-token/", obtain_auth_token)
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

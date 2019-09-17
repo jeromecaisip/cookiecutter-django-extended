@@ -9,6 +9,4 @@ else:
 
 router.register('users', UserViewSet)
 
-
-app_name = 'api'
 urlpatterns = router.urls
