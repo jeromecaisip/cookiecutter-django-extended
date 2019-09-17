@@ -120,6 +120,7 @@ Listed in alphabetical order.
   Irfan Ahmad              `@erfaan`_                    @erfaan
   Jan Van Bruggen          `@jvanbrug`_
   Jelmer Draaijer          `@foarsitter`_
+  Jerome Caisip            `@jeromecaisip`_
   Jens Nilsson             `@phiberjenz`_
   Jerome Caisip            `@jeromecaisip`_
   Jerome Leclanche         `@jleclanche`_                @Adys
