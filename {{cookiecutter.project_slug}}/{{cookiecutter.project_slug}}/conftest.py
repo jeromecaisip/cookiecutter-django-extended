@@ -4,6 +4,8 @@ from django.test import RequestFactory
 
 from {{ cookiecutter.project_slug }}.users.tests.factories import UserFactory
 
+User = get_user_model()
+
 
 @pytest.fixture(autouse=True)
 def media_storage(settings, tmpdir):
@@ -11,7 +13,7 @@ def media_storage(settings, tmpdir):
 
 
 @pytest.fixture
-def user() -> settings.AUTH_USER_MODEL:
+def user() -> User:
     return UserFactory()
 
 
