@@ -56,7 +56,7 @@ def remove_pycharm_files():
 def remove_docker_files():
     shutil.rmtree("compose")
 
-    file_names = ["local.yml", "production.yml", ".dockerignore","Makefile"]
+    file_names = ["local.yml", "production.yml", ".dockerignore", "Makefile"]
     for file_name in file_names:
         os.remove(file_name)
 
@@ -277,12 +277,6 @@ def remove_celery_compose_dirs():
 
 def remove_node_dockerfile():
     shutil.rmtree(os.path.join("compose", "local", "node"))
-
-def remove_drf_starter_files():
-    os.remove(os.path.join("config", "api_router.py"))
-    shutil.rmtree(os.path.join("{{cookiecutter.project_slug}}", "users", "api"))
-
-
 
 
 def remove_stimulus_js_files():
