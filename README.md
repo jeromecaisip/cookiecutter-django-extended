@@ -2,8 +2,9 @@
 
 ### Additional Integrations:
 * [StimulusJS](https://stimulusjs.org) with webpack
-* Django-rest-framework bootstrapping
+* Option to setup django-rest-framework
 * Improved docker workflow
+* Option to add behave-django
 
 ### Using docker locally.
 
