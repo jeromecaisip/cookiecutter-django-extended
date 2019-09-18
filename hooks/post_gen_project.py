@@ -289,7 +289,7 @@ def remove_drf_starter_files():
 
 
 def remove_behave_django_files():
-    os.remove('features')
+    shutil.rmtree('features')
 
 
 def main():
