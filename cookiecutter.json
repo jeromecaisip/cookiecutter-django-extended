@@ -34,6 +34,7 @@
     "None"
   ],
   "use_drf": "n",
+  "use_behave_django": "n",
   "custom_bootstrap_compilation": "n",
   "use_compressor": "n",
   "use_stimulusJS": "n",

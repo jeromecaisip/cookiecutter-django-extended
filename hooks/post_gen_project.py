@@ -288,6 +288,10 @@ def remove_drf_starter_files():
     shutil.rmtree(os.path.join("{{cookiecutter.project_slug}}", "users", "api"))
 
 
+def remove_behave_django_files():
+    os.remove('features')
+
+
 def main():
     debug = "{{ cookiecutter.debug }}".lower() == "y"
 
@@ -356,6 +360,9 @@ def main():
 
     if "{{ cookiecutter.use_drf }}".lower() == "n":
         remove_drf_starter_files()
+
+    if "{{ cookiecutter.use_behave_django }}".lower() == "n":
+        remove_behave_django_files()
 
     print(SUCCESS + "Project initialized, keep up the good work!" + TERMINATOR)
 

@@ -326,5 +326,8 @@ REST_FRAMEWORK = {
     )
 }
 {%- endif %}
+{% if cookiecutter.use_behave_django == 'y' -%}
+INSTALLED_APPS +=["behave_django"]
+{%- endif%}
 # Your stuff...
 # ------------------------------------------------------------------------------
