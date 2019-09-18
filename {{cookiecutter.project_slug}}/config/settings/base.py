@@ -314,7 +314,7 @@ REST_FRAMEWORK = {
 }
 {%- endif %}
 
-{% if cookiecutter.setup_drf == "y" -%}
+{% if cookiecutter.use_drf == "y" -%}
 # django-rest-framework - https://www.django-rest-framework.org/api-guide/settings/
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
