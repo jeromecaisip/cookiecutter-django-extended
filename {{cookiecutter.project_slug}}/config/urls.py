@@ -18,8 +18,6 @@ urlpatterns = [
     # User management
     path("users/", include("{{ cookiecutter.project_slug }}.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
-    # API base url
-    path("api/", include('config.api_router')),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 {% if cookiecutter.use_drf == 'y' -%}
