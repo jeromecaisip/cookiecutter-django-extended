@@ -292,6 +292,10 @@ def remove_behave_django_files():
     shutil.rmtree('features')
 
 
+def remove_aws_dockerfile():
+    shutil.rmtree(os.path.join("compose", "production", "aws"))
+
+
 def main():
     debug = "{{ cookiecutter.debug }}".lower() == "y"
 
@@ -315,6 +319,12 @@ def main():
     else:
         remove_docker_files()
 
+    if (
+        "{{ cookiecutter.use_docker }}".lower() == "y"
+        and "{{ cookiecutter.cloud_provider}}".lower() != "aws"
+    ):
+        remove_aws_dockerfile()
+
     if "{{ cookiecutter.use_heroku }}".lower() == "n":
         remove_heroku_files()
 
@@ -325,8 +335,8 @@ def main():
         if "{{ cookiecutter.keep_local_envs_in_vcs }}".lower() == "y":
             print(
                 INFO + ".env(s) are only utilized when Docker Compose and/or "
-                "Heroku support is enabled so keeping them does not "
-                "make sense given your current setup." + TERMINATOR
+                       "Heroku support is enabled so keeping them does not "
+                       "make sense given your current setup." + TERMINATOR
             )
         remove_envs_and_associated_files()
     else:
@@ -344,7 +354,7 @@ def main():
     if "{{ cookiecutter.cloud_provider}}".lower() == "none":
         print(
             WARNING + "You chose not to use a cloud provider, "
-            "media files won't be served in production." + TERMINATOR
+                      "media files won't be served in production." + TERMINATOR
         )
 
     if "{{ cookiecutter.use_celery }}".lower() == "n":
