@@ -112,15 +112,18 @@ Listed in alphabetical order.
   Diane Chen               `@purplediane`_               @purplediane88
   Dónal Adams              `@epileptic-fish`_
   Dong Huynh               `@trungdong`_
+  Duda Nogueira            `@dudanogueira`_              @dudanogueira
   Emanuel Calso            `@bloodpet`_                  @bloodpet
   Eraldo Energy            `@eraldo`_
   Eric Groom               `@ericgroom`_
   Eyad Al Sibai            `@eyadsibai`_
   Felipe Arruda            `@arruda`_
   Florian Idelberger       `@step21`_                    @windrush
+  Gabriel Mejia            `@elgartoinf`_                @elgartoinf
   Garry Cairns             `@garry-cairns`_
   Garry Polley             `@garrypolley`_
   Gilbishkosma             `@Gilbishkosma`_
+  Glenn Wiskur             `@gwiskur`_
   Guilherme Guy            `@guilherme1guy`_
   Hamish Durkin            `@durkode`_
   Hana Quadara             `@hanaquadara`_
@@ -282,10 +285,12 @@ Listed in alphabetical order.
 .. _@dezoito: https://github.com/dezoito
 .. _@dhepper: https://github.com/dhepper
 .. _@dot2dotseurat: https://github.com/dot2dotseurat
+.. _@dudanogueira: https://github.com/dudanogueira
 .. _@dsclementsen: https://github.com/dsclementsen
 .. _@guilherme1guy: https://github.com/guilherme1guy
 .. _@durkode: https://github.com/durkode
 .. _@Egregors: https://github.com/Egregors
+.. _@elgartoinf: https://gihub.com/elgartoinf
 .. _@epileptic-fish: https://gihub.com/epileptic-fish
 .. _@eraldo: https://github.com/eraldo
 .. _@erfaan: https://github.com/erfaan
@@ -297,6 +302,7 @@ Listed in alphabetical order.
 .. _@garry-cairns: https://github.com/garry-cairns
 .. _@garrypolley: https://github.com/garrypolley
 .. _@Gilbishkosma: https://github.com/Gilbishkosma
+.. _@gwiskur: https://github.com/gwiskur
 .. _@glasslion: https://github.com/glasslion
 .. _@goldhand: https://github.com/goldhand
 .. _@hackebrot: https://github.com/hackebrot
