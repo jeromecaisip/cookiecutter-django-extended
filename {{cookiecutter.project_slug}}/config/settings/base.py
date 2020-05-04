@@ -5,8 +5,8 @@ from pathlib import Path
 
 import environ
 
-ROOT_DIR = Path(__file__).parents[2]
-# {{ cookiecutter.project_slug }}/)
+ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+# {{ cookiecutter.project_slug }}/
 APPS_DIR = ROOT_DIR / "{{ cookiecutter.project_slug }}"
 env = environ.Env()
 
@@ -311,7 +311,7 @@ INSTALLED_APPS += ["compressor"]
 STATICFILES_FINDERS += ["compressor.finders.CompressorFinder"]
 {%- endif %}
 {% if cookiecutter.use_drf == "y" -%}
-# django-reset-framework
+# django-rest-framework
 # -------------------------------------------------------------------------------
 # django-rest-framework - https://www.django-rest-framework.org/api-guide/settings/
 REST_FRAMEWORK = {

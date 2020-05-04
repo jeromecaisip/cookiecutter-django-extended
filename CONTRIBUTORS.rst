@@ -116,6 +116,7 @@ Listed in alphabetical order.
   Emanuel Calso            `@bloodpet`_                  @bloodpet
   Eraldo Energy            `@eraldo`_
   Eric Groom               `@ericgroom`_
+  Ernesto Cedeno           `@codnee`_
   Eyad Al Sibai            `@eyadsibai`_
   Felipe Arruda            `@arruda`_
   Florian Idelberger       `@step21`_                    @windrush
@@ -127,6 +128,7 @@ Listed in alphabetical order.
   Guilherme Guy            `@guilherme1guy`_
   Hamish Durkin            `@durkode`_
   Hana Quadara             `@hanaquadara`_
+  Hannah Lazarus           `@hanhanhan`_
   Harry Moreno             `@morenoh149`_                @morenoh149
   Harry Percival           `@hjwp`_
   Hendrik Schneider        `@hendrikschneider`_
@@ -145,6 +147,7 @@ Listed in alphabetical order.
   Jerome Leclanche         `@jleclanche`_                @Adys
   Jimmy Gitonga            `@afrowave`_                  @afrowave
   John Cass                `@jcass77`_                   @cass_john
+  Jonathan Thompson        `@nojanath`_
   Jules Cheron             `@jules-ch`_
   Julien Almarcha          `@sladinji`_
   Julio Castillo           `@juliocc`_
@@ -160,6 +163,7 @@ Listed in alphabetical order.
   Krzysztof Żuraw          `@krzysztofzuraw`_
   Leo won                  `@leollon`_
   Leo Zhou                 `@glasslion`_
+  Leon Kim                 `@PilhwanKim`_
   Leonardo Jimenez         `@xpostudio4`_
   Lin Xianyi               `@iynaix`_
   Luis Nell                `@originell`_
@@ -202,9 +206,11 @@ Listed in alphabetical order.
   Sascha                   `@saschalalala`_             @saschalalala
   Shupeyko Nikita          `@webyneter`_
   Sławek Ehlert            `@slafs`_
+  Sorasful                 `@sorasful`_
   Srinivas Nyayapati       `@shireenrao`_
   stepmr                   `@stepmr`_
   Steve Steiner            `@ssteinerX`_
+  Sudarshan Wadkar         `@wadkar`_
   Sule Marshall            `@suledev`_
   Tano Abeleyra            `@tanoabeleyra`_
   Taylor Baldwin
@@ -272,6 +278,7 @@ Listed in alphabetical order.
 .. _@chuckus: https://github.com/chuckus
 .. _@cmackenzie1: https://github.com/cmackenzie1
 .. _@cmargieson: https://github.com/cmargieson
+.. _@codnee: https://github.com/codnee
 .. _@cole: https://github.com/cole
 .. _@Collederas: https://github.com/Collederas
 .. _@curtisstpierre: https://github.com/curtisstpierre
@@ -308,6 +315,7 @@ Listed in alphabetical order.
 .. _@hackebrot: https://github.com/hackebrot
 .. _@hairychris: https://github.com/hairychris
 .. _@hanaquadara: https://github.com/hanaquadara
+.. _@hanhanhan: https://github.com/hanhanhan
 .. _@hendrikschneider: https://github.com/hendrikschneider
 .. _@highpost: https://github.com/highpost
 .. _@hjwp: https://github.com/hjwp
@@ -354,12 +362,14 @@ Listed in alphabetical order.
 .. _@myilmaz: https://github.com/myilmaz
 .. _@nicolas471: https://github.com/nicolas471
 .. _@noisy: https://github.com/noisy
+.. _@nojanath: https://github.com/nojanath
 .. _@originell: https://github.com/originell
 .. _@oubiga: https://github.com/oubiga
 .. _@parbhat: https://github.com/parbhat
 .. _@rjsnh1522: https://github.com/rjsnh1522
 .. _@pchiquet: https://github.com/pchiquet
 .. _@phiberjenz: https://github.com/phiberjenz
+.. _@PilhwanKim: https://github.com/PilhwanKim
 .. _@purplediane: https://github.com/purplediane
 .. _@raonyguimaraes: https://github.com/raonyguimaraes
 .. _@reggieriser: https://github.com/reggieriser
@@ -375,6 +385,7 @@ Listed in alphabetical order.
 .. _@siauPatrick: https://github.com/siauPatrick
 .. _@sladinji: https://github.com/sladinji
 .. _@slafs: https://github.com/slafs
+.. _@sorasful:: https://github.com/sorasful
 .. _@ssteinerX: https://github.com/ssteinerx
 .. _@step21: https://github.com/step21
 .. _@stepmr: https://github.com/stepmr
@@ -390,6 +401,7 @@ Listed in alphabetical order.
 .. _@umrashrf: https://github.com/umrashrf
 .. _@viviangb: https://github.com/viviangb
 .. _@vladdoster: https://github.com/vladdoster
+.. _@wadkar: https://github.com/wadkar
 .. _@xpostudio4: https://github.com/xpostudio4
 .. _@yrchen: https://github.com/yrchen
 .. _@yunti: https://github.com/yunti
