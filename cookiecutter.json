@@ -61,6 +61,7 @@
     "Gitlab"
   ],
   "keep_local_envs_in_vcs": "y",
+  "use_notebook": "n",
 
   "debug": "n"
 }

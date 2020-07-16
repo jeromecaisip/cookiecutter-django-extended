@@ -87,5 +87,11 @@ CELERY_TASK_ALWAYS_EAGER = True
 CELERY_TASK_EAGER_PROPAGATES = True
 
 {%- endif %}
+
+{% if cookiecutter.use_notebook == 'y'and cookiecutter.use_docker == 'y' -%}
+# https://django-extensions.readthedocs.io/en/latest/shell_plus.html#configuration
+CELERY_TASK_ALWAYS_EAGER = True
+NOTEBOOK_ARGUMENTS = ["--ip=0.0.0.0", "--port=8888", "--allow-root"]
+{%- endif %}
 # Your stuff...
 # ------------------------------------------------------------------------------
